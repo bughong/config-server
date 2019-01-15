@@ -1,6 +1,9 @@
 server:
   port: 8010
 spring:
+  max-http-header-size: 1048576
+  tomcat: 
+    max-http-post-size: 1048576
   application:
     name: yigou-common-dev
 eureka:
